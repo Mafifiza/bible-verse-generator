@@ -18,6 +18,10 @@ function generateVerse(event) {
   let prompt = `User instructions: Generate a bible verse about ${instructionsInput.value}`;
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
+  let verseElement = document.querySelector("#verse");
+  verseElement.classList.remove("hidden");
+  verseElement.innerHTML = `<div class="generating">⏳Generating a Bible verse about ${instructionsInput.value}</div>`;
+
   console.log("Generating verse");
   console.log(`Prompt: ${prompt}`);
   console.log(`Context: ${context}`);

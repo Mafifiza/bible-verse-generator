@@ -14,19 +14,22 @@
         <h1>AI Bible Verse Generator</h1>
       </header>
       <main>
-        <form id="verse-generator-form">
-          <input
-            type="text"
-            placeholder="Search for a Bible verse..."
-            autofocus
-            required
-            autocomplete="off"
-            class="instructions"
-            id="user-instructions"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
-        <div class="verse" id="verse"></div>
+        <div class="form-container">
+          <form id="verse-generator-form">
+            <input
+              type="text"
+              placeholder="Search for a topic..."
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-instructions"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint">i.e Love, Peace or Broken heartedness</div>
+        </div>
+        <div class="verse hidden" id="verse"></div>
       </main>
       <footer>
         This AI Project was coded by
