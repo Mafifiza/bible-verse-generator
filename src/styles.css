@@ -71,6 +71,10 @@ form {
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.3);
 }
 
+.verse strong {
+  color: #f70776;
+}
+
 footer {
   text-align: center;
   font-size: 13px;
