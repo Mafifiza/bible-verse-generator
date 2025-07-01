@@ -6,12 +6,18 @@ body {
 }
 
 a {
-  color: #6d42c7;
+  color: #5c715e;
 }
 
 .container {
-  margin: 280px auto;
-  max-width: 500px;
+  margin: 150px auto;
+  max-width: 400px;
+  position: relative;
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  backdrop-filter: blur(55px);
+  padding: 2rem 3rem;
 }
 
 header {
@@ -47,7 +53,7 @@ form {
 
 .submit-button {
   margin-left: 10px;
-  background: #885df1;
+  background: #5c715e;
   color: white;
   width: 150px;
   font-size: 16px;
@@ -61,7 +67,7 @@ form {
   background-color: #fff;
   padding: 20px;
   line-height: 2;
-  border-left: 3px solid #885df1;
+  border-left: 3px solid #5c715e;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.3);
 }
 
